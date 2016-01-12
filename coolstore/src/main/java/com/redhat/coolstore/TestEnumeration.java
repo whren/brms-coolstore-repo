@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestEnumeration {
-    public Map<String>, List<String> loadData() {
+    public Map<String, List<String>> loadData() {
         Map data = new HashMap();
 
         List categories = new ArrayList();
