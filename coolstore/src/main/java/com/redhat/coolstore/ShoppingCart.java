@@ -34,16 +34,16 @@ static final long serialVersionUID = 1L;
 
     @org.kie.api.definition.type.Label(value = "Category")
     @org.kie.api.definition.type.Position(value = 6)
-    private java.util.List<java.lang.String> category;
+    private java.lang.String category;
 
     @org.kie.api.definition.type.Label(value = "Sub Category")
     @org.kie.api.definition.type.Position(value = 7)
-    private java.util.List<java.lang.String> subCategory;
+    private java.lang.String subCategory;
 
     public ShoppingCart() {
     }
 
-    public ShoppingCart(java.lang.Double cartItemTotal, java.lang.Double cartItemPromoSavings, java.lang.Double shippingTotal, java.lang.Double shippingPromoSavings, java.lang.Double cartTotal, java.util.List<com.redhat.coolstore.ShoppingCartItem> shoppingCartItemList, java.util.List<java.lang.String> category, java.util.List<java.lang.String> subCategory) {
+    public ShoppingCart(java.lang.Double cartItemTotal, java.lang.Double cartItemPromoSavings, java.lang.Double shippingTotal, java.lang.Double shippingPromoSavings, java.lang.Double cartTotal, java.util.List<com.redhat.coolstore.ShoppingCartItem> shoppingCartItemList, java.lang.String category, java.lang.String subCategory) {
         this.cartItemTotal = cartItemTotal;
         this.cartItemPromoSavings = cartItemPromoSavings;
         this.shippingTotal = shippingTotal;
@@ -104,19 +104,19 @@ static final long serialVersionUID = 1L;
         this.shoppingCartItemList = shoppingCartItemList;
     }
 
-    public java.util.List<java.lang.String> getCategory() {
+    public java.lang.String getCategory() {
         return this.category;
     }
 
-    public void setCategory( java.util.List<java.lang.String> category ) {
+    public void setCategory( java.lang.String category ) {
         this.category = category;
     }
 
-    public java.util.List<java.lang.String> getSubCategory() {
+    public java.lang.String getSubCategory() {
         return this.subCategory;
     }
 
-    public void setSubCategory( java.util.List<java.lang.String> subCategory ) {
+    public void setSubCategory( java.lang.String subCategory ) {
         this.subCategory = subCategory;
     }
 
