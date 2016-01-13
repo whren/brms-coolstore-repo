@@ -1,1 +1,3 @@
-=(new TestEnumeration()).loadData()
+'ShoppingCart.category' : [ 'Short', 'Long']
+'ShoppingCart.subCategory[category=Short]' : [ '1', '2' ]
+'ShoppingCart.subCategory[category=Long]' : [ '3', '4' ]
